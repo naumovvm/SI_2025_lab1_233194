@@ -1,0 +1,15 @@
+* ade0961 Added filter function
+*   c518a63 Merge pull request #11 from naumovvm/3-list-tasks-sorted-by-name
+|\  
+| *   3c4b39b Merge branch 'master' into 3-list-tasks-sorted-by-name
+| |\  
+| |/  
+|/|   
+* |   0826619 Merge pull request #10 from naumovvm/1-remove-a-task-by-name
+|\ \  
+| * | ff4bb65 Implemented removeTask function
+|/ /  
+| * f4ead59 Implemented sorting function
+|/  
+* 006def5 Add starter code
+* f98652e Initial commit

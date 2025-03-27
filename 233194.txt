@@ -1,0 +1,37 @@
+$ git fetch origin <- gi zemam novokreiranite granki od remote repoto
+
+$ git checkout 1-remove-a-task-by-name <- se prefrlam na grankata za prviot issue
+
+$ git add SI2025Lab1Main.java <- go dodavam promenetiot file
+
+$ git commit -m "Implemented removeTask function" <- pravam commit so poraka
+
+$ git push -u origin 1-remove-a-task-by-name <- pravam push na remote grankata
+
+$ git checkout 3-list-tasks-sorted-by-name <- se prefrlam na grankata za vtoriot issue
+
+$ git add SI2025Lab1Main.java <- go dodavam promenetiot file
+
+$ git commit -m "Implemented sorting function" <- pravam commit so poraka
+
+$ git push -u origin 3-list-tasks-sorted-by-name <- pravam push na remote grankata
+
+Tuka imam konflikt i se spravuvam so nego na github, preku online editorot. Otkako gi srediv problemite, napraviv merge.
+
+$ git checkout 4-sort-tasks-by-priority
+
+$ git add . <- dodavam izmeni
+
+$ git commit -m "Added filter function"
+
+$ git checkout master <- se prefrluvam na lokalnata granka
+
+$ git merge 4-sort-tasks-by-priority <- pravam merge lokalno
+
+$ git push origin master <- pravam push na izmenite
+
+
+
+
+
+
