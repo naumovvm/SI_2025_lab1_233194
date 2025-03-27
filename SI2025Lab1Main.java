@@ -137,5 +137,6 @@ public class SI2025Lab1Main {
         manager.removeTask("Buy groceries");
         manager.sortTasksByName();
         manager.printTasks();
+        manager.removeTask("Buy groceries");
     }
 }
