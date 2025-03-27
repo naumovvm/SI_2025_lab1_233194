@@ -83,6 +83,12 @@ class TaskManager {
     // 3. List tasks sorted by name
     public void sortTasksByName() {
         // TODO: Implement sorting logic
+        Collections.sort(tasks, new Comparator<Task>() {
+            @Override
+            public int compare(Task task1, Task task2) {
+                return task1.getName().compareTo(task2.getName());
+            }
+        });
     }
 
     // 4. Sort tasks by priority
@@ -127,6 +133,9 @@ public class SI2025Lab1Main {
         manager.addTask("Buy groceries", Priority.LOW, "Personal");
 
         // MISSING: Calls to the new methods that will be implemented
+        manager.printTasks();
+        manager.removeTask("Buy groceries");
+        manager.sortTasksByName();
         manager.printTasks();
         manager.removeTask("Buy groceries");
     }
